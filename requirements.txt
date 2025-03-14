@@ -1,0 +1,13 @@
+streamlit==1.43.2
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.9.2
+seaborn==0.13.2
+geopy==2.4.1
+folium==0.19.5
+pyarrow==14.0.2
+lightgbm==4.5.0
+altair==5.0.1
+pydeck==0.8.0
+scikit-learn==1.4.2
