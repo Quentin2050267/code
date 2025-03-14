@@ -4,9 +4,9 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 
-from data_preprocess import preprocess_data
-from eda import get_eda_insights, get_description
-from train import train_model_for_equipment, train_model_for_faulty, make_prediction
+from src.data_preprocess import preprocess_data
+from src.eda import get_eda_insights, get_description
+from src.train import train_model_for_equipment, train_model_for_faulty, make_prediction
 
 st.title("Equipment Anomaly Detection - Data Analysis & Prediction")
 st.markdown("This is a Streamlit app that shows the equipment anomaly detection dataset analysis. For more information, please refer to readme.pdf.")
